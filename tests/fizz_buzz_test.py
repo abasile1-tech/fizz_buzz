@@ -2,7 +2,7 @@ import unittest
 
 from src.fizz_buzz import fizz_buzz
 
-class TestFizzBuss(unittest.TestCase):
+class TestFizzBuzz(unittest.TestCase):
 	def test_fizz(self):
 		self.assertEqual("Fizz", fizz_buzz(3))
 	def test_buzz(self):
